@@ -27,11 +27,22 @@ pub enum NodeKind {
 }
 impl Document {
     pub fn new(name: impl Into<String>) -> Self {
-        Self { schema_version: 1, id: Uuid::new_v4(), name: name.into(), nodes: Vec::new() }
+        Self {
+            schema_version: 1,
+            id: Uuid::new_v4(),
+            name: name.into(),
+            nodes: Vec::new(),
+        }
     }
-    pub fn add_node(&mut self, node: Node) { self.nodes.push(node); }
-    pub fn to_json(&self) -> Result<String, serde_json::Error> { serde_json::to_string_pretty(self) }
-    pub fn from_json(json: &str) -> Result<Self, serde_json::Error> { serde_json::from_str(json) }
+    pub fn add_node(&mut self, node: Node) {
+        self.nodes.push(node);
+    }
+    pub fn to_json(&self) -> Result<String, serde_json::Error> {
+        serde_json::to_string_pretty(self)
+    }
+    pub fn from_json(json: &str) -> Result<Self, serde_json::Error> {
+        serde_json::from_str(json)
+    }
 }
 #[cfg(test)]
 mod tests {
@@ -39,7 +50,17 @@ mod tests {
     #[test]
     fn document_round_trip() {
         let mut doc = Document::new("Test");
-        doc.add_node(Node { id: Uuid::new_v4(), name: "Box".into(), x: 0.0, y: 0.0, width: 100.0, height: 80.0, kind: NodeKind::Rectangle { fill: "#FF0000".into() } });
+        doc.add_node(Node {
+            id: Uuid::new_v4(),
+            name: "Box".into(),
+            x: 0.0,
+            y: 0.0,
+            width: 100.0,
+            height: 80.0,
+            kind: NodeKind::Rectangle {
+                fill: "#FF0000".into(),
+            },
+        });
         assert_eq!(doc, Document::from_json(&doc.to_json().unwrap()).unwrap());
     }
 }
