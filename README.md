@@ -11,3 +11,7 @@ Install Rust stable and Node.js LTS. Run `cd apps/desktop && npm install && npm 
 `cargo test -p design-document`; `cd apps/desktop && npm run check && npm run build`.
 
 See [SPRINTS.md](SPRINTS.md), [BACKLOG.md](BACKLOG.md), [ARCHITECTURE.md](ARCHITECTURE.md).
+
+## Releases
+
+See [RELEASES.md](RELEASES.md) for SemVer, release cadence, milestones and quality gates; see [CHANGELOG.md](CHANGELOG.md) for changes.
