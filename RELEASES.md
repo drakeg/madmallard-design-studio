@@ -51,3 +51,6 @@ Support the latest stable minor line with patches. Announce deprecated public AP
 - [ ] Installer checksums and signing status
 - [ ] Tag and GitHub Release
 - [ ] Post-release installation verification
+
+## Known dependency advisories
+Review [SECURITY.md](SECURITY.md) and all open Dependabot alerts before tagging. A macOS-only release may proceed after verifying a Linux-only dependency advisory is not in the macOS target graph; do not claim the Linux target is remediated.
