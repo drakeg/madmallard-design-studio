@@ -22,3 +22,5 @@ Brand kits, preset dimensions, template gallery and slide decks.
 
 ## Review
 Close each sprint by verifying acceptance criteria, demonstrating the increment, recording deferred work and reprioritizing issues.
+
+Release policy: see [RELEASES.md](RELEASES.md). A sprint closing does not automatically trigger a release.
