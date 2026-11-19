@@ -1,1 +1,3 @@
-fn main() { madmallard_design_studio_lib::run(); }
+fn main() {
+    madmallard_design_studio_lib::run();
+}

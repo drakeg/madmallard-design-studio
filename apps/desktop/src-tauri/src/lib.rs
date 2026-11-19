@@ -1,6 +1,8 @@
 #[tauri::command]
 fn create_document(name: String) -> String {
-    design_document::Document::new(name).to_json().expect("document serializes")
+    design_document::Document::new(name)
+        .to_json()
+        .expect("document serializes")
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
