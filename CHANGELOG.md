@@ -11,3 +11,6 @@ All notable changes will be documented here. Follow [Keep a Changelog](https://k
 - Release policy and release gates.
 
 No release has been published yet.
+
+### Security
+- Documented Linux-only Tauri/GTK `glib` 0.18.5 advisory in SECURITY.md and issue #8; upstream remediation remains open.
