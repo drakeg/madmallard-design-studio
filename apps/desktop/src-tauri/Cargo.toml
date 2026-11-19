@@ -1,0 +1,12 @@
+[package]
+name = "madmallard-design-studio-desktop"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "madmallard_design_studio_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+tauri = "2"
+design-document = { path = "../../../crates/document" }
