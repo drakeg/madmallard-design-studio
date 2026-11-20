@@ -14,3 +14,5 @@ No release has been published yet.
 
 ### Security
 - Documented Linux-only Tauri/GTK `glib` 0.18.5 advisory in SECURITY.md and issue #8; upstream remediation remains open.
+
+- Sprint 1 prototype: add selectable rectangle/ellipse layers, canvas creation, property editing and keyboard nudging (pending PR).

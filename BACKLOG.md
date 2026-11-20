@@ -14,3 +14,5 @@
 | P1 | 5 | Templates | Brand and slide presets |
 | P2 | Future | AI editing | Previewable, undoable commands |
 | P2 | Future | Plugins | Versioned sandboxed API |
+
+Sprint 1 implementation slice: rectangle/ellipse creation, selection, property inspector, layer list and keyboard movement; pan, drag, undo/redo remain outstanding.
