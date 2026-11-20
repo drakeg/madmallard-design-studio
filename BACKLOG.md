@@ -19,3 +19,5 @@
 | P0 | 1–3 | SMB MVP vertical slice | Create/edit/save/reopen/export without losing data |
 | P1 | 1 | Commercial validation | Five observed SMB trials and documented pricing feedback, no invented evidence |
 | P1 | 0 carryover | Adopt centralized repository standards | Preserve project docs; reconcile badge generator with nested manifests |
+
+Dependency compatibility: TypeScript 7 is blocked by current svelte-check peer support (^5 or ^6); retain TypeScript 5 until a tested compatible upgrade is available.
