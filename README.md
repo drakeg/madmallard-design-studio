@@ -15,3 +15,7 @@ See [SPRINTS.md](SPRINTS.md), [BACKLOG.md](BACKLOG.md), [ARCHITECTURE.md](ARCHIT
 ## Releases
 
 See [RELEASES.md](RELEASES.md) for SemVer, release cadence, milestones and quality gates; see [CHANGELOG.md](CHANGELOG.md) for changes.
+
+## Product direction
+
+See [PRODUCT.md](PRODUCT.md) for the SMB buyer hypothesis, minimum viable workflow and validation criteria. Web preview: https://desktop-sigma-tawny.vercel.app/. Native macOS packages require separate validation and signing status before public distribution.
