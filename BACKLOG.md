@@ -21,3 +21,5 @@
 | P1 | 0 carryover | Adopt centralized repository standards | Preserve project docs; reconcile badge generator with nested manifests |
 
 Dependency compatibility: TypeScript 7 is blocked by current svelte-check peer support (^5 or ^6); retain TypeScript 5 until a tested compatible upgrade is available.
+
+| P1 | 0 | Repository badge maintenance | Accurate README badges, documented standards, automated validation |
