@@ -16,3 +16,5 @@
 | P2 | Future | Plugins | Versioned sandboxed API |
 
 Sprint 1 implementation slice: rectangle/ellipse creation, selection, property inspector, layer list and keyboard movement; pan, drag, undo/redo remain outstanding.
+
+Sprint 1 follow-up: pointer-based shape dragging implemented; verify drag behavior in browser and macOS, then add undo/redo and pan.
