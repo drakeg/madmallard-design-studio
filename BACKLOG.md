@@ -14,3 +14,5 @@
 | P1 | 5 | Templates | Brand and slide presets |
 | P2 | Future | AI editing | Previewable, undoable commands |
 | P2 | Future | Plugins | Versioned sandboxed API |
+
+| P1 | 0 | Repository badge maintenance | Accurate README badges, documented standards, automated validation |
