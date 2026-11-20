@@ -24,3 +24,5 @@ Brand kits, preset dimensions, template gallery and slide decks.
 Close each sprint by verifying acceptance criteria, demonstrating the increment, recording deferred work and reprioritizing issues.
 
 Release policy: see [RELEASES.md](RELEASES.md). A sprint closing does not automatically trigger a release.
+
+Sprint 0 maintenance: verify README badges against manifests and CI, document badge conventions in AGENTS.md, and enforce checks in CI.
