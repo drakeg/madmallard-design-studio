@@ -25,4 +25,11 @@ Close each sprint by verifying acceptance criteria, demonstrating the increment,
 
 Release policy: see [RELEASES.md](RELEASES.md). A sprint closing does not automatically trigger a release.
 
+## Standards adoption and commercialization (Sprint 0 carryover)
+
+- Adopt central standards without overwriting project-specific instructions; validate actual CI and README claims.
+- Keep a working Vercel web preview and separately validate native macOS app packaging.
+- Record target SMB buyer, MVP acceptance and pricing hypotheses in PRODUCT.md.
+- Sprint 1 remains the current delivery sprint: canvas creation, selection, movement, inspector, undo/redo. Do not reset already completed foundation work.
+
 Sprint 0 maintenance: verify README badges against manifests and CI, document badge conventions in AGENTS.md, and enforce checks in CI.
