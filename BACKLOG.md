@@ -26,3 +26,5 @@ Sprint 1 implementation slice: rectangle/ellipse creation, selection, property i
 
 Sprint 1 follow-up: pointer-based shape dragging implemented; verify drag behavior in browser and macOS, then add undo/redo and pan.
 | P1 | 0 | Repository badge maintenance | Accurate README badges, documented standards, automated validation |
+
+Sprint 1 progress: undo/redo history (100 checkpoints) for shape creation, dragging, arrow nudges, deletion and inspector edits. Next: pan gestures, durable project persistence, and browser interaction regression tests.
