@@ -33,3 +33,5 @@ Release policy: see [RELEASES.md](RELEASES.md). A sprint closing does not automa
 - Sprint 1 remains the current delivery sprint: canvas creation, selection, movement, inspector, undo/redo. Do not reset already completed foundation work.
 
 Sprint 0 maintenance: verify README badges against manifests and CI, document badge conventions in AGENTS.md, and enforce checks in CI.
+
+Sprint 1 increment: command history implemented for shape creation, dragging, keyboard nudging, deletion and property changes; canvas pan and interaction smoke tests remain pending.
