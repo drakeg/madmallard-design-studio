@@ -18,3 +18,5 @@ No release has been published yet.
 - Sprint 1 prototype: add selectable rectangle/ellipse layers, canvas creation, property editing and keyboard nudging (pending PR).
 
 - Sprint 1: undo/redo buttons and keyboard shortcuts, bounded shape edit history, undoable inspector edits and drag operations (pending PR).
+
+- Sprint 1: zoom-aware canvas panning with Space/middle-mouse drag and reset view (pending PR).

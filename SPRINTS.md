@@ -35,3 +35,5 @@ Release policy: see [RELEASES.md](RELEASES.md). A sprint closing does not automa
 Sprint 0 maintenance: verify README badges against manifests and CI, document badge conventions in AGENTS.md, and enforce checks in CI.
 
 Sprint 1 increment: command history implemented for shape creation, dragging, keyboard nudging, deletion and property changes; canvas pan and interaction smoke tests remain pending.
+
+Sprint 1: canvas panning via middle-mouse or Space + drag, plus reset view control (pending PR).
