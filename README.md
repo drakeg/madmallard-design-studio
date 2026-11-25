@@ -1,5 +1,8 @@
 # Mad Mallard Design Studio
 
+[![License](https://img.shields.io/github/license/drakeg/madmallard-design-studio)](https://github.com/drakeg/madmallard-design-studio/blob/main/LICENSE)
+
+
 [![Rust](https://img.shields.io/badge/Rust-Core-000000?logo=rust&logoColor=white)](Cargo.toml) [![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?logo=typescript&logoColor=white)](apps/desktop/tsconfig.json) [![Svelte 5](https://img.shields.io/badge/Svelte-5-FF3E00?logo=svelte&logoColor=white)](apps/desktop/package.json) [![Tauri 2](https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white)](apps/desktop/src-tauri/Cargo.toml) [![Vite 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)](apps/desktop/package.json) [![Vercel](https://img.shields.io/badge/Vercel-Web-000000?logo=vercel&logoColor=white)](https://desktop-sigma-tawny.vercel.app/)
 
 [![CI](https://github.com/drakeg/madmallard-design-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/drakeg/madmallard-design-studio/actions/workflows/ci.yml) [![Open issues](https://img.shields.io/github/issues/drakeg/madmallard-design-studio)](https://github.com/drakeg/madmallard-design-studio/issues) [![Open PRs](https://img.shields.io/github/issues-pr/drakeg/madmallard-design-studio)](https://github.com/drakeg/madmallard-design-studio/pulls)
